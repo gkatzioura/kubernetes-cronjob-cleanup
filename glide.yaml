@@ -1,0 +1,16 @@
+package: .
+import:
+  - package: k8s.io/client-go
+    version: v7.0.0
+  - package: k8s.io/apimachinery
+    version: 302974c03f7e50f16561ba237db776ab93594ef6
+  - package: k8s.io/api
+    version: 73d903622b7391f3312dcbac6483fed484e185f8
+  - package: github.com/golang/glog
+    version: 44145f04b68cf362d9c4df2182967c2275eaefed
+  - package: github.com/davecgh/go-spew/spew
+    version: 782f4967f2dc4564575ca782fe2d04090b5faca8
+  - package: github.com/hashicorp/golang-lru
+    version: a0d98a5f288019575c6d1f4bb1573fef2d1fcdc4
+	- package: k8s.io/klog
+	  version: 8139d8cb77af419532b33dfa7dd09fbc5f1d344f
